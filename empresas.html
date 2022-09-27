@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/empresas.css">
+    <link rel="stylesheet" href="./css/tema.css">
     <title>EMPRESAS</title>
 </head>
 
@@ -53,8 +54,23 @@
         <div class="img-principal"> 
                 <img src="./img/1_next_tech_2_3d.jpg" alt="">
         </div>
-    </main>
 
+        <div class="img-principal"> 
+            <img src="./img/1_next_tech_2_3d.jpg" alt="">
+        </div>
+        <div class="button">
+            <div class="ball"></div>
+        </div>
+        <script>
+            document.querySelector('.ball').addEventListener('click', (e)=>{
+                e.target.classList.toggle('ball-move');
+                document.body.classList.toggle('dark');
+            });
+        </script>
+    </main>
+    <footer id="rodape">
+        &copy; SerraTec 2022 - Grupo 7
+    </footer>
 </body>
 
 </html>
