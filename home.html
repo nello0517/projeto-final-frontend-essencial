@@ -6,7 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/base.css">
-    <link rel="stylesheet" href="./css/home.css">
+    <script src="css\js\script.js"></script>
+    <link rel="stylesheet" href="./css/tema.css">
     <title>HOME</title>
 </head>
 
@@ -43,7 +44,7 @@
                 <li>
                     <a href="faleconosco.html"> Fale conosco</a>
                 </li>
-
+                
 
 
 
@@ -53,8 +54,46 @@
         <div class="img-principal"> 
                 <img src="./img/1_next_tech_2_3d.jpg" alt="">
         </div>
+        <div class="button">
+            <div class="ball"></div>
+        </div>
+        <script>
+            document.querySelector('.ball').addEventListener('click', (e)=>{
+                e.target.classList.toggle('ball-move');
+                document.body.classList.toggle('dark');
+            });
+        </script>
+        
     </main>
+    <section class="container">
+        <article class="article">
+            <img src="exemplo">
+            <h1>Título do Artigo</h1>
+            <p>Texto do Artigo</p>
+        </article>
+        <article class="article">
+            <img src="exemplo">
+            <h1>Título do Artigo</h1>
+            <p>Texto do Artigo</p>
+        </article>
+        <article class="article">
+            <img src="exemplo">
+            <h1>Título do Artigo</h1>
+            <p>Texto do Artigo</p>
+        </article>
+        <article class="article">
+            <img src="exemplo">
+            <h1>Título do Artigo</h1>
+            <p>Texto do Artigo</p>
+        </article>
+    </section>
 
+    <footer id="rodape">
+        &copy; SerraTec 2022 - Grupo 7
+        
+    </footer>
+   
 </body>
+
 
 </html>
