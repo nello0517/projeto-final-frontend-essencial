@@ -15,7 +15,7 @@
     height: 100%;
     border-radius: 50%;
     background-color: #053742;
-    transition: left 1s;
+    transition: left 0,5s;
 }
 .ball-move{
     left: calc(100% - 40px);
