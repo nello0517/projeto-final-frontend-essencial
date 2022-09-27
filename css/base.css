@@ -86,3 +86,31 @@ footer{
     text-align: center;
     line-height: 100px;
 }
+<<<<<<< HEAD
+=======
+
+.container{
+    float: left;
+    width: 100%;
+    padding: 0.5em;
+
+}
+
+.container .article{
+    background-color: var(--cor-primaria);
+    color: var(--cor-fonte);
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #aaa;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    
+    
+}
+
+.container .article img{
+    width: 100%;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+}
+>>>>>>> 0d8291a4b3d6c4ef2f308cbb10ffad72c16cd3be
