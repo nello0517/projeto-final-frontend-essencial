@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/faleconosco.css">
+    <script src="js/script.js"defer></script>
     <title> FALE CONOSCO</title>
 </head>
 
@@ -18,11 +19,12 @@
             </li>
 
         </ul>
+        
     </header>
-
+    <div >
     <main>
-        <div>
-            <ul class="sub-menu">
+        <div class="navcontainer">
+            <div><ul class="sub-menu">
 
                 <li>
                     <a href="home.html"> Home </a>
@@ -41,14 +43,19 @@
                 </li>
 
                 <li>
-                    <a href="#"> Fale conosco</a>
+                    <a href="faleconosco.html"> Fale conosco</a>
                 </li>
 
 
 
 
-            </ul>
+            </ul></div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="switchTheme()">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Switch Theme</label>
+            </div>
         </div>
+        
 
         <div class="img-principal"> 
                 <img src="./img/1_next_tech_2_3d.jpg" alt="">
