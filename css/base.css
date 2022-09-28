@@ -98,7 +98,7 @@ footer{
 .container .article{
     width: 100%;
     padding: 0.5em;
-    border: 1px solid #aaa;
+    border: 1px solid #1a1a1a;
     border-radius: 0.5em;
     margin-bottom: 0.5em;
     text-align: center;
@@ -125,3 +125,22 @@ footer{
     padding-right: 15px;
     padding-top: 15px;
 }
+.materia {
+    color: var(--cor-fonte);
+    border: 15px solid #1a1a1a;
+}
+
+.img-salario{
+    text-align:center;
+    margin-top: 50px;
+}
+
+/* .container .article2{
+    background-color: var(--cor-primaria);
+    color: var(--cor-fonte);
+    width: 100%;
+    padding: 0.5em;
+    border: 5px solid #1a1a1a;
+    border-radius: o.5em;
+    margin-bottom: 0.5em;
+} */
