@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --cor-primaria: #0D47A1;
+    --cor-secundaria: #4FC3F7;
+    --cor-fonte: #fff;
+    --background:#1a1a1a;
+}
+    
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    background-color: var(--background);
+}
+
+  
+  h1, h2 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 2rem;
+    text-align: center;
+    line-height: 1.2;
+  }
+  
+  h1::before {
+    content: "📧";
+    display: block;
+    text-align: center;
+  }
+   
+  
+  .form {
+    width: 100%;
+    max-width: 16rem;
+    font-size: 1.125rem;
+    text-align: center;
+  }
+  
+  .form label,
+  .form input,
+  .form textarea,
+  .form button {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+  
+  .form label {
+    color: #fff;
+    line-height: 1;
+    margin-bottom: 0.5rem;
+    text-align: center;
+}
+  
+  .form input,
+  .form textarea {
+    font: inherit;
+    padding: 0.8rem;
+    margin-bottom: 1rem;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    transition: border-color, box-shadow 0.2s;
+    text-align: center;
+}
+  
+  .form textarea {
+    min-height: 8rem;
+    resize: vertical;
+    text-align: center;
+}
+  
+  .form input:hover,
+  .form input:focus,
+  .form textarea:hover,
+  .form textarea:focus {
+    outline: none;
+    border-color: #09d;
+    box-shadow: 0 0 0 3px #4dc8ff;
+    text-align: center;
+}
+  
+  .form button {
+    display: block;
+    padding: 1rem;
+    background: #0072c4;
+    color: #fff;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+  .form button:hover,
+  .form button:focus {
+    outline: none;
+    background: #09d;
+    text-align: center;
+}
+.center {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+}
