@@ -8,8 +8,10 @@ function salvarForm(){
 
         cad = document.getElementById('name').value + ';' + document.getElementById('email').value + ';' + document.getElementById('message').value;
         localStorage.setItem("cad_"+localStorage.cont,cad);
+        alert("MENSAGEM ENVIADA COM SUCESSO")
     }
     else {
 
     }
+
 }
