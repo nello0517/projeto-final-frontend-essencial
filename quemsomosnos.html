@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/tema.css">
     <link rel="stylesheet" href="./css/quemsomosnos.css">
+    <script src="js/script.js"defer></script>
     <title>QUEM SOMOS NÓS</title>
 </head>
 
@@ -22,8 +24,9 @@
     </header>
 
     <main>
-        <div>
-            <ul class="sub-menu">
+        <div class="navcontainer">
+            <div><ul class="sub-menu">
+
                 <li>
                     <a href="home.html"> Home </a>
                 </li>
@@ -37,12 +40,22 @@
                 </li>
 
                 <li>
-                    <a href="#"> Quem somos nós</a>
+                    <a href="quemsomosnos.html"> Quem somos nós</a>
                 </li>
 
                 <li>
-                    <a href="faleconosco.html"> Fale conosco</a>
+                    <a href="#"> Fale conosco</a>
                 </li>
+
+
+
+
+            </ul></div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="switchTheme()">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Switch Theme</label>
+            </div>
+        
         <div class="button">
             <div class="ball"></div>
         </div>
