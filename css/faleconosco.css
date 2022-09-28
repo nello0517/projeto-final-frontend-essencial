@@ -18,6 +18,7 @@ body {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--background);
+    text-align: center;
 }
 
   
@@ -31,7 +32,7 @@ body {
   
   h1::before {
     content: "📧";
-    display: block;
+    display: center;
     text-align: center;
   }
    
@@ -42,16 +43,7 @@ body {
     font-size: 1.125rem;
     text-align: center;
   }
-  
-  .form label,
-  .form input,
-  .form textarea,
-  .form button {
-    display: block;
-    width: 100%;
-    text-align: center;
-}
-  
+   
   .form label {
     color: #fff;
     line-height: 1;
@@ -87,7 +79,7 @@ body {
 }
   
   .form button {
-    display: block;
+    display: center;
     padding: 1rem;
     background: #0072c4;
     color: #fff;
@@ -113,4 +105,10 @@ body {
     justify-content: center;
     align-items: center;
 
+}
+
+.img-principal img {
+  margin-top: 30px;
+  width: 900px;
+  height: 400px;
 }

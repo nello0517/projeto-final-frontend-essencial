@@ -57,28 +57,30 @@
         </div>
         
 
-        <div class="img-principal"> 
-                <img src="./img/1_next_tech_2_3d.jpg" alt="">
-        </div>        
-    </html>
+
+        <div class="img-principal">
+            <img src="./img/tecnologia-tablet-computador-internet-geral.jpg" alt="">
+        </div>
+
+
     </main>
     <center>    
     <h1>Entre em Contato</h1>
     </center>    
         <center>
         <div>
-        <form action="https://formsubmit.co/pedroveiga03@hotmail.com" method="POST" class="form">
+        <form class="form">
         <label for="name">Nome Completo</label>
         <input type="text" name="name" id="name" placeholder="Digite seu nome" required />
         <label for="email">E-mail</label>
         <input type="email" name="email" id="email" placeholder="Digite seu email" required />
         <label for="message">Mensagem</label>
         <textarea name="message" id="message" placeholder="Escreva aqui..." required></textarea>
-        <input type="hidden" name="_captcha" value="false" />
-        <input type="hidden" name="_next" value="http://127.0.0.1:5500/projeto-final-frontend-essencial/home.html">
-        <button type="submit">Enviar Mensagem</button>
+        <button onclick="salvarForm()" id="btn-enviar">Enviar Mensagem</button>
         </form>
         </div>
         </center>
+    <script src="./js/faleconosco.js"></script>
     </body>
+
 </html>
