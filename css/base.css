@@ -91,23 +91,30 @@ footer{
     float: left;
     width: 100%;
     padding: 0.5em;
+    
 
 }
 
 .container .article{
-    background-color: var(--cor-primaria);
-    color: var(--cor-fonte);
     width: 100%;
     padding: 0.5em;
     border: 1px solid #aaa;
     border-radius: 0.5em;
     margin-bottom: 0.5em;
+    text-align: center;
+    color: var(--cor-fonte);
+    
+    
     
     
 }
 
 .container .article img{
-    width: 100%;
-    border-top-left-radius: 0.5em;
-    border-top-right-radius: 0.5em;
+    width: 16%;
+    height: 25%;
+    border-radius: 2.0em;
+    border-top-right-radius: 2.0em;
+    border: 5px solid #fff;
+    margin-top: auto;
+    text-align: right;
 }
