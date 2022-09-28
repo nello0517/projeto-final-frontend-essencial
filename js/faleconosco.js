@@ -1,16 +1,15 @@
-let formulario = {
-    
-    nome: localStorage.setItem(document.querySelector ("#nome")),
-    email: document.querySelector("#email"),
-    message: document.querySelector("#message"),
-    btnEnviar: document.querySelector("#btn-enviar"),
+function salvarForm(){
+    if(typeof(Storage)!== "undefined") {
+        if (localStorage.cont) {
+            localStorage.cont = Number(localStorage)+1;
+        } else {
+            localStorage.cont = 1;
+        }
+
+        cad = document.getElementById('name').value + ';' + document.getElementById('email').value + ';' + document.getElementById('message').value;
+        localStorage.setItem("cad_"+localStorage.cont,cad);
+    }
+    else {
+
+    }
 }
-
-formulario.btnEnviar.addEventListener("click", (e) => {
-    e.preventDefault.prototype
-    var nome = formulario.nome.value 
-    if (nome.length >10){
-        alert ("fui clicado")
-    } 
-
-})
