@@ -118,3 +118,10 @@ footer{
     margin-top: auto;
     text-align: right;
 }
+
+
+.form-check {
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
+}

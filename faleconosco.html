@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/faleconosco.css">
-    <link rel="stylesheet" href="./css/tema.css">
     <title> FALE CONOSCO</title>
 </head>
 
@@ -15,7 +14,7 @@
     <header>
         <ul>
             <li>
-                <a href="#"> PORTAL DA INOVAÇÃO G7 </a>
+                <a href="#"> PORTAL DA INOVAÇÃO</a>
             </li>
 
         </ul>
@@ -51,22 +50,31 @@
             </ul>
         </div>
 
-        <div class="img-principal"> 
+        <div class="img-principal">
             <img src="./img/1_next_tech_2_3d.jpg" alt="">
         </div>
-        <div class="button">
-            <div class="ball"></div>
+
+    </main>
+    <center>
+        <h1>Entre em Contato</h1>
+    </center>
+    <center>
+        <div>
+            <form action="https://formsubmit.co/pedroveiga03@hotmail.com" method="POST" class="form">
+                <label for="name">Nome Completo</label>
+                <input type="text" name="name" id="name" required />
+                <label for="email">E-mail</label>
+                <input type="email" name="email" id="email" required />
+                <label for="message">Mensagem</label>
+                <textarea name="message" id="message" placeholder="Escreva aqui..." required></textarea>
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next"
+                    value="http://127.0.0.1:5500/projeto-final-frontend-essencial/home.html">
+                <button type="submit">Enviar Mensagem</button>
+            </form>
         </div>
-        <script>
-            document.querySelector('.ball').addEventListener('click', (e)=>{
-                e.target.classList.toggle('ball-move');
-                document.body.classList.toggle('dark');
-            });
-        </script>
-        </main>
-    <footer id="rodape">
-            &copy; SerraTec 2022 - Grupo 7
-        </footer>
+    </center>
+
 </body>
 
 </html>
