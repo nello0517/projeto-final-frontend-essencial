@@ -23,7 +23,7 @@
 .dark{
     background-color: #39a2db;
 } */
-div,.form-check{
+div.form-check{
   display: flex;
   justify-content: space-between;
   background-color: #4fc3f7;

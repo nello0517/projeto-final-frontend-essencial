@@ -1,0 +1,27 @@
+.materia {
+    color: var(--cor-fonte);
+    border: 15px solid #1a1a1a;
+}
+
+.img-salario{
+    text-align:center;
+    margin-top: 50px;
+}
+
+.container .article2{
+    background-color: #1a1a1a;
+    color: var(--cor-fonte);
+    width: 100%;
+    padding: 0.5em;
+    border: 5px solid #1a1a1a;
+    border-radius: o.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-size: 18px;
+
+} 
+
+h1{
+    font-size: 40px;
+    font-weight: 600;
+}

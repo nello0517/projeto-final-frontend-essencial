@@ -1,0 +1,32 @@
+
+.container{
+    float: right;
+    width: 100%;
+    padding: 0.5em;
+    
+
+}
+
+.container .article{
+    
+    padding: 0;
+    border: 1px solid #1a1a1a;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: var(--cor-fonte);
+    
+    
+    
+    
+}
+
+.container .article img{
+    width: 16%;
+    height: 25%;
+    border-radius: 2.0em;
+    border-top-right-radius: 2.0em;
+    border: 5px solid #fff;
+    margin-top: auto;
+    text-align: right;
+}
