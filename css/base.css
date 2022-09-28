@@ -6,9 +6,7 @@
     --cor-fonte: #fff;
     --background:#1a1a1a;
 }
-
     
-
 body {
     margin: 0;
     padding: 0;
@@ -17,9 +15,7 @@ body {
     background-color: var(--background);
 }
 
-main {
-    
-    
+main { 
 }
 
 ul,ul.sub-menu {
@@ -34,7 +30,6 @@ ul,ul.sub-menu {
 ul.sub-menu {
     background-color: var(--cor-secundaria);
 }
-
 
 li {
     float: center;
@@ -57,7 +52,7 @@ ul.sub-menu li{
     float: left;
 }
 
- ul.sub-menu li a {
+ul.sub-menu li a {
     color: var(--cor-fonte);
     text-align: center;
     padding: 15px;
@@ -104,10 +99,6 @@ footer{
     margin-bottom: 0.5em;
     text-align: center;
     color: var(--cor-fonte);
-    
-    
-    
-    
 }
 
 .container .article img{
@@ -119,7 +110,6 @@ footer{
     margin-top: auto;
     text-align: right;
 }
-
 
 .form-check {
     float: right;
