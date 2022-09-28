@@ -14,6 +14,7 @@ body {
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
     background-color: var(--background);
+    text-align: center;
 }
 
   

@@ -61,15 +61,7 @@ ul.sub-menu li a {
     font-size: 25px;
 }
 
-.img-principal{
-    text-align:center;
-    margin-top: 50px;
-}
 
-img{
-    width: 1200px;
-    height: 437px;
-}
 
 footer{
     color: var(--cor-fonte);
