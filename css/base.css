@@ -6,9 +6,7 @@
     --cor-fonte: #fff;
     --background:#1a1a1a;
 }
-
     
-
 body {
     margin: 0;
     padding: 0;
@@ -17,9 +15,7 @@ body {
     background-color: var(--background);
 }
 
-main {
-    
-    
+main { 
 }
 
 ul,ul.sub-menu {
@@ -34,7 +30,6 @@ ul,ul.sub-menu {
 ul.sub-menu {
     background-color: var(--cor-secundaria);
 }
-
 
 li {
     float: center;
@@ -57,7 +52,7 @@ ul.sub-menu li{
     float: left;
 }
 
- ul.sub-menu li a {
+ul.sub-menu li a {
     color: var(--cor-fonte);
     text-align: center;
     padding: 15px;
@@ -74,4 +69,50 @@ ul.sub-menu li{
 img{
     width: 1200px;
     height: 437px;
+}
+
+footer{
+    color: var(--cor-fonte);
+    position: relative;
+    bottom: 0;
+    /* background-color: var(--cor-primaria); */
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+}
+
+.container{
+    float: right;
+    width: 100%;
+    padding: 0.5em;
+    font-size: 18px;
+    
+
+}
+
+.container .article{
+    width: 100%;
+    padding: 0.5em;
+    border: 1px solid #1a1a1a;
+    border-radius: 0.5em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    color: var(--cor-fonte);
+}
+
+.container .article img{
+    width: 16%;
+    height: 25%;
+    border-radius: 2.0em;
+    border-top-right-radius: 2.0em;
+    border: 5px solid #fff;
+    margin-top: auto;
+    text-align: right;
+}
+
+.form-check {
+    float: right;
+    padding-right: 15px;
+    padding-top: 15px;
 }

@@ -7,14 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/materia.css">
-    <title>MATÉRIA</title>
+    <link rel="stylesheet" href="./css/tema.css">
+    <title>NOTÍCIAS</title>
 </head>
 
 <body>
     <header>
         <ul>
             <li>
-                <a href="#"> PORTAL DA INOVAÇÃO</a>
+                <a href="#"> PORTAL DA INOVAÇÃO G7 </a>
             </li>
 
         </ul>
@@ -28,7 +29,7 @@
                 </li>
 
                 <li>
-                    <a href="#"> Matérias</a>
+                    <a href="#"> Notícias</a>
                 </li>
 
                 <li>
@@ -49,11 +50,63 @@
             </ul>
         </div>
 
-        <div class="img-principal"> 
-                <img src="./img/1_next_tech_2_3d.jpg" alt="">
-        </div>
-    </main>
+        <section class="container">
+            <article class="article2">
+                <h1>O crescimento do mercado de TI!</h1>
+                <article class="materia">
+                <p> O mercado de TI cresce exponencialmente a cada ano, provando ser promissor
+                        para os profissionais do nicho.</p>
 
+                    <p> Uma pesquisa realizada em 2020 pela Associação Brasileira das Empresas de Tecnologia da
+                        Informação e Comunicação (Brasscom) diz que até o ano de 2024 o Brasil
+                        precisará de cerca de 420 mil profissionais na área de Tecnologia da Informação.
+                        Porém, por ano, a mesma pesquisa diz que o país forma apenas 46 mil profissionais capacitados no
+                        nicho.</p>
+
+                    <p> Médias salariais de programadores brasileiros separadas por nível. Apuramos informações sobre
+                        migração de carreira, nível e fluência em inglês,
+                        satisfação no uso da stack de desenvolvimento, modelo de trabalho, forma de contratação e se
+                        atua em empresa nacional ou extrangeira.</p>
+
+                    </article>
+                    
+                    <div class="img-salario"> 
+                    <a href="https://pesquisa.codigofonte.com.br/2022/medias-por-nivel" target="_blank">
+                        <img src="img/salario.jpeg" alt="Logo da empresa">
+                    </a>
+                </div>
+             
+                <article class="article2">
+                    <h1>Crescimento das empresas de TI!</h1>
+                    <article class="materia">
+                        <p> Empresas do setor de tecnologia ou que trazem a inovação tecnológica no centro de suas
+                            estratégias são as que mais têm crescido em valor de mercado no mundo.
+                            Essa é a principal conclusão da segunda edição do Technology Report,
+                            relatório global da consultoria Bain & Company que analisa o impacto da tecnologia nos
+                            negócios e na sociedade. </p>
+
+                        <p> “As empresas que mais inovam incentivam o surgimento de ideias dentro de casa, de maneira
+                            orgânica, mas também olham para fora com atenção.
+                            Essas companhias se conectam com startups e entendem as oportunidades que surgem com a
+                            combinação de negócios”,</p>
+                    </article>
+        </section>
+
+
+        </div>
+        <div class="button">
+            <div class="ball"></div>
+        </div>
+        <script>
+            document.querySelector('.ball').addEventListener('click', (e) => {
+                e.target.classList.toggle('ball-move');
+                document.body.classList.toggle('dark');
+            });
+        </script>
+    </main>
+    <footer id="rodape">
+        &copy; SerraTec 2022 - Grupo 7
+    </footer>
 </body>
 
 </html>
