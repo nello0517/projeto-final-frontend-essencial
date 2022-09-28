@@ -16,11 +16,6 @@ body {
     background-color: var(--background);
 }
 
-div.img-principal > img,
-#teste{
-  width: 10px;
-  height: 10px;
-}
 
   
   h1, h2 {
