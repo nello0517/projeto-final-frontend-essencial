@@ -44,6 +44,11 @@ li a {
     font-size: 50px;
 }
 
+li a:visited,
+li a:link {
+    color: var(--cor-fonte); 
+}
+
 ul.sub-menu li a:hover {
     background-color: #1a1a1a;
 }
