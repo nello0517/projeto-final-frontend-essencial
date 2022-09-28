@@ -23,8 +23,14 @@
 .dark{
     background-color: #39a2db;
 } */
+div,.form-check{
+  display: flex;
+  justify-content: space-between;
+  background-color: #4fc3f7;
+  align-items: center;
+}
 .switch {
-    position: relative;
+    position:relative;
     display: inline-block;
     width: 60px;
     height: 34px;
