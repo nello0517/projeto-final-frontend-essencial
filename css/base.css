@@ -15,13 +15,6 @@ body {
     background-color: var(--background);
 }
 
-body.light{
-    background-color: var(--background);
-    color: var(--cor-fonte);
-}
-
-
-
 ul,ul.sub-menu {
     margin: 0;
     padding: 0;
