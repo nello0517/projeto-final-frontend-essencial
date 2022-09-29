@@ -15,8 +15,12 @@ body {
     background-color: var(--background);
 }
 
-main { 
+body.light{
+    background-color: var(--background);
+    color: var(--cor-fonte);
 }
+
+
 
 ul,ul.sub-menu {
     margin: 0;
@@ -94,7 +98,7 @@ footer{
     border-radius: 0.5em;
     margin-bottom: 0.5em;
     text-align: center;
-    color: var(--cor-fonte);
+    
 }
 
 .container .article img{

@@ -1,5 +1,5 @@
 .materia {
-    color: var(--cor-fonte);
+    
     border: 5px solid #fff;
     margin-left: 20px;
     flex:1;
@@ -12,7 +12,7 @@
 }
 
 .article2{
-    background-color: #1a1a1a;
+   
     padding: 0.5em;
     margin-bottom: 0.5em;
     text-align: center;
@@ -22,7 +22,7 @@
 
 h1 {
     text-align:center;
-    color: #fff;
+    
     font-size: 40px;
     font-weight: 600;
     
