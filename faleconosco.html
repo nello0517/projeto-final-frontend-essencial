@@ -5,82 +5,85 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="./css/base.css">
     <link rel="stylesheet" href="./css/faleconosco.css">
-    <script src="js/script.js"defer></script>
+    <script src="js/script.js" defer></script>
     <title> FALE CONOSCO</title>
 </head>
 
 <body>
     <header>
-        <ul>
+        <ul class="titulo">
             <li>
                 <a href="#"> PORTAL DA INOVAÇÃO G7</a>
             </li>
 
         </ul>
-        
+
     </header>
-    <div >
-    <main>
-        <div class="navcontainer">
-            <div><ul class="sub-menu">
+    <div>
+        <main>
+            <div class="navcontainer">
+                <div>
+                    <ul class="sub-menu">
 
-                <li>
-                    <a href="home.html"> Home </a>
-                </li>
+                        <li>
+                            <a href="home.html"> Home </a>
+                        </li>
 
-                <li>
-                    <a href="materia.html"> Matérias</a>
-                </li>
+                        <li>
+                            <a href="materia.html"> Notícias</a>
+                        </li>
 
-                <li>
-                    <a href="empresas.html"> Empresas</a>
-                </li>
+                        <li>
+                            <a href="empresas.html"> Empresas</a>
+                        </li>
 
-                <li>
-                    <a href="quemsomosnos.html"> Quem somos nós</a>
-                </li>
+                        <li>
+                            <a href="quemsomosnos.html"> Quem somos nós</a>
+                        </li>
 
-                <li>
-                    <a href="faleconosco.html"> Fale conosco</a>
-                </li>
-
-
+                        <li>
+                            <a href="faleconosco.html"> Fale conosco</a>
+                        </li>
 
 
-            </ul></div>
-            <div class="form-check form-switch">
-                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="switchTheme()">
-                <label class="form-check-label" for="flexSwitchCheckDefault">Switch Theme</label>
+
+
+                    </ul>
+                </div>
+                <div class="form-check form-switch">
+                    <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="switchTheme()">
+                    <label class="form-check-label" for="flexSwitchCheckDefault">Switch Theme</label>
+                </div>
             </div>
-        </div>
-        
 
 
-        <div class="img-principal">
-            <img src="./img/tecnologia-tablet-computador-internet-geral.jpg" alt="">
-        </div>
+
+            <div class="img-principal">
+                <img src="./img/tecnologia-tablet-computador-internet-geral.jpg" alt="">
+            </div>
 
 
-    </main>
-    <center>    
-    <h1>Entre em Contato</h1>
-    </center>    
+        </main>
         <center>
-        <div>
-        <form class="form">
-        <label for="name">Nome Completo</label>
-        <input type="text" name="name" id="name" placeholder="Digite seu nome" required />
-        <label for="email">E-mail</label>
-        <input type="email" name="email" id="email" placeholder="Digite seu email" required />
-        <label for="message">Mensagem</label>
-        <textarea name="message" id="message" placeholder="Escreva aqui..." required></textarea>
-        <button onclick="salvarForm()" id="btn-enviar">Enviar Mensagem</button>
-        </form>
-        </div>
+            <h1>Entre em Contato</h1>
         </center>
-    <script src="./js/faleconosco.js"></script>
-    </body>
+        <center>
+            <div>
+                <form class="form">
+                    <label for="name">Nome Completo</label>
+                    <input type="text" name="name" id="name" placeholder="Digite seu nome" required />
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" required />
+                    <label for="message">Mensagem</label>
+                    <textarea name="message" id="message" placeholder="Escreva aqui..." required></textarea>
+                    <button class="btn btn-primary" onclick="salvarForm()" id="btn-enviar">Enviar Mensagem</button>
+                </form>
+            </div>
+        </center>
+        <script src="./js/faleconosco.js"></script>
+</body>
 
 </html>
