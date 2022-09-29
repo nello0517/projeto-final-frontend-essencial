@@ -58,6 +58,11 @@ ul.sub-menu li a:hover {
     background-color: #1a1a1a;
 }
 
+li a.ativo{
+    background-color: lightblue;
+    color: var(--cor-fonte);
+}
+
 ul.sub-menu li{
     float: left;
 }
