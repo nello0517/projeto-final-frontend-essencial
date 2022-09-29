@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+
+
+    </style>
+ 
+
+ 
+    <script src="./js/script.js" defer></script>
+    <link rel="stylesheet" href="api.css">
+    <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/tema.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="api.css">
+    
+    <title>API</title>
+</head>
+
+<body>
+    <header>
+        <ul class="titulo">
+            <li>
+                <a href="#"> PORTAL DA INOVAÇÃO G7</a>
+            </li>
+
+        </ul>
+    </header>
+
+    <main>
+        <div class="navcontainer">
+            <div>
+                <ul class="sub-menu">
+
+                    <li>
+                        <a href="#"> Home </a>
+                    </li>
+
+                    <li>
+                        <a href="materia.html"> Notícias </a>
+                    </li>
+
+                    <li>
+                        <a href="empresas.html"> Empresas</a>
+                    </li>
+
+                    <li>
+                        <a href="quemsomosnos.html"> Quem somos nós</a>
+                    </li>
+
+                    <li>
+                        <a href="faleconosco.html"> Fale conosco</a>
+                    </li>
+                    <li>
+                        <a href="api.html"> API</a>
+
+                    </li>
+
+
+                </ul>
+            </div>
+            <div class="form-check form-switch">
+                <input class="form-check-input" type="checkbox" id="flexSwitchCheckDefault" onclick="switchTheme()">
+                <label class="form-check-label" for="flexSwitchCheckDefault">Switch Theme</label>
+            </div>
+        </div>
+
+
+        <div class="button">
+            <div class="ball"></div>
+        </div>
+        <script>
+            document.querySelector('.ball').addEventListener('click', (e) => {
+                e.target.classList.toggle('ball-move');
+                document.body.classList.toggle('dark');
+            });
+        </script>
+        </div>
+        <article>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vGuqKIRWosk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </article>
+        <p >As APIs são um conjunto de padrões que fazem parte de uma interface e que permitem a criação de plataformas de maneira mais simples e prática para desenvolvedores. A partir de APIs é possível criar softwares, aplicativos, programas e plataformas diversas. Por exemplo, apps desenvolvidos para celulares Android e iPhone (iOS) são criados a partir de padrões definidos e disponibilizados pelas APIs de cada sistema operacional.</p>
+        <br />
+        <h2>1. O que é API e como funciona?</h2>
+        <p>A sigla API deriva da expressão inglesa Application Programming Interface que, traduzida para o português, pode ser compreendida como uma interface de programação de aplicação. Ou seja, API é um conjunto de normas que possibilita a comunicação entre plataformas através de uma série de padrões e protocolos.</p>
+        <br />
+        <p>Por meio de APIs, desenvolvedores podem criar novos softwares e aplicativos capazes de se comunicar com outras plataformas. Por exemplo: caso um desenvolvedor queira criar um aplicativo de fotos para Android, ele poderá ter acesso à câmera do celular através da API do sistema operacional, sem ter a necessidade de criar uma nova interface de câmera do zero. O mesmo acontece com aplicativos que utilizam os serviços de mapas por meio da API do Google Maps ou, ainda, nas integrações entre apps, como o Spotify e o Instagram, que possibilita compartilhar faixas nos Stories.</p>
+        <br />
+        <h2>2. Qual a função de uma API?</h2>
+        <p>A função de uma API é, basicamente, facilitar e simplificar o trabalho de desenvolvedores, além de oferecer um padrão para a criação de novas plataformas. Com o uso das APIs, não é necessário criar códigos personalizados para cada função que um programa for executar, o que simplifica a criação de novos aplicativos, softwares e plataformas em geral.</p>
+        <br />
+        <p>Além disso, as APIs também possuem papel fundamental quando o assunto é segurança, já que também são capazes de bloquear acesso e permissões a dados de software e hardware que algumas aplicações não podem usar.</p>
+        <br />
+        <h2>3. Exemplos de API</h2>
+        <br/>
+        <p>As APIs estão presentes na maioria dos aplicativos que utilizamos no nosso dia a dia. No WhatsApp, por exemplo, podemos perceber a integração da lista de contatos salva no dispositivo com os contatos do aplicativo. No Facebook, temos a integração com o Instagram, que permite que fotos postadas no aplicativo também sejam postadas automaticamente no Facebook.</p>
+        <br />
+        <p>Também podemos observar o uso das APIs quando realizamos compras online, já que a plataforma utilizada para pagamentos — em que colocamos as informações de cartões de crédito — deve ser integrada à operadora do cartão, que pode ou não autorizar a compra. Esses são alguns exemplos de APIs mais comuns, que podemos perceber no nosso cotidiano, e que facilitam a comunicação entre plataformas.</p>
+        </main>
+        </body>
+        </html>
