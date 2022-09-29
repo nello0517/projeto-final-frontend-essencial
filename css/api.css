@@ -3,4 +3,11 @@ article{
 }
 h2{
     text-align: center;
+    padding: 100px;
+}
+.texto{
+    text-align: center;
+    padding: 100px;
+    border-radius: 10em;
+    margin-bottom:10em;
 }
