@@ -1,5 +1,11 @@
 function salvarForm(){
+    if(email.value == "" || name.value == ""||message.value =="") {
+        alert("Preencha todos os Campos");
+        return
+    }
+    else 
     if(typeof(Storage)!== "undefined") {
+
         if (localStorage.cont) {
             localStorage.cont = Number(localStorage)+1;
         } else {
@@ -10,8 +16,8 @@ function salvarForm(){
         localStorage.setItem("cad_"+localStorage.cont,cad);
         alert("MENSAGEM ENVIADA COM SUCESSO")
     }
-    else {
+    
+
 
     }
 
-}
