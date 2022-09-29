@@ -14,11 +14,15 @@
 
 
     </style>
+ 
 
+ 
     <script src="./js/script.js" defer></script>
+    
     <link rel="stylesheet" href="./css/base.css">
+    <link rel="stylesheet" href="./css/tema.css">
     <link rel="stylesheet" href="./css/home.css">
-    <!-- <link rel="stylesheet" href="./css/tema.css"> -->
+    
     <title>HOME</title>
 </head>
 
@@ -64,6 +68,18 @@
                 <label class="form-check-label" for="flexSwitchCheckDefault">Switch Theme</label>
             </div>
         </div>
+
+
+        <div class="button">
+            <div class="ball"></div>
+        </div>
+        <script>
+            document.querySelector('.ball').addEventListener('click', (e) => {
+                e.target.classList.toggle('ball-move');
+                document.body.classList.toggle('dark');
+            });
+        </script>
+        </div>
         <h1 class="bemvindo">
             Bem vindos ao nosso site de noticias da area de tecnologia!
             <br>
@@ -75,14 +91,14 @@
         <div class="carousel-home">
             <div id="demo" class="carousel slide" data-ride="carousel">
 
-                <!-- Indicators -->
+             
                 <ul class="carousel-indicators">
                     <li data-target="#demo" data-slide-to="0" class="active"></li>
                     <li data-target="#demo" data-slide-to="1"></li>
                     <li data-target="#demo" data-slide-to="2"></li>
                 </ul>
 
-                <!-- The slideshow -->
+               
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img src="./img/1_next_tech_2_3d.jpg" alt="Los Angeles" width="1100" height="500">
@@ -97,7 +113,7 @@
                     </div>
                 </div>
 
-                <!-- Left and right controls -->
+               
                 <a class="carousel-control-prev" href="#demo" data-slide="prev">
                     <span class="carousel-control-prev-icon"></span>
                 </a>
